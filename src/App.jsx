@@ -65,7 +65,7 @@ function App() {
         setTypeFilter={setTypeFilter}
       />
 
-      {loading && <p className="text-center mt-6 text-lg">Loading Pokémon...</p>}
+      {loading && <p className="text-center mt-6 text-lg">Loading Pokémon wait...</p>}
       {error && <p className="text-center text-red-500 mt-6">{error}</p>}
 
       {filteredPokemon.length === 0 && !loading && !error && (
